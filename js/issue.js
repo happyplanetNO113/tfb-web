@@ -15,7 +15,7 @@ document.getElementById('issueForm').addEventListener('submit', function (event)
     .then(data => {
       if (data.success) {
         // 信息发布成功，跳转回主页
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
       } else {
         alert('发布失败，请重试。');
       }
