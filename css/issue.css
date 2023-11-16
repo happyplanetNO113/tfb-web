@@ -81,3 +81,69 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .title {
+    display: none;
+  }
+
+  .nav a {
+    margin: 0;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  .container {
+    position: relative;
+    width: 90%;
+    /* 相对于父元素的宽度 */
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+  }
+
+  /* 表单项样式 */
+  .type,
+  .gender,
+  .pay,
+  .language,
+  .others {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .button {
+    position: absolute;
+    /* 设置绝对定位 */
+    bottom: 10px;
+    right: 10px;
+    width: 50%;
+    /* 相对于父元素的宽度 */
+    padding: 10px;
+    background-color: #cc3333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* 底部样式 */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #userInfo {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+}
