@@ -153,8 +153,68 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .space {
+    width: 100%;
+    height: 50px;
+  }
+
+  .space2 {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spaceissue {
+    display: flex;
+  }
+
+  .space2 button {
+    background-color: #333;
+  }
+
+  .spaceissue a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+
+  .actions {
+    overflow: hidden;
+    width: 65%;
+    right: 0;
+  }
+
+  .actions input {
+    width: 40%;
+  }
+
+  .search-button {
+    height: 30px;
+    width: 30%;
+    right: 0;
+  }
+
+  .issue {
+    display: none;
+  }
+
   .card {
     width: 100%;
     /* 在小屏幕上占满整行 */
+  }
+
+  .roles {
+    display: none;
+  }
+
+  .fit {
+    display: flex;
+    justify-content: space-around;
   }
 }
